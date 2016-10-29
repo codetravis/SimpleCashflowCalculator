@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Simple Cash Flow Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cash_flow_calculation">Cash Flow Calculation</string>
+    <string name="cash_flow_label">Cash Flow</string>
+    <string name="property_value_label">Property Value</string>
+    <string name="estimated_rent_label">Estimated Rent</string>
+    <string name="mortgage_label">Mortgage</string>
+    <string name="repair_label">Repair</string>
+    <string name="vacancy_label">Vacancy</string>
+    <string name="insurance_label">Insurance</string>
+    <string name="property_tax_label">Property Tax</string>
+    <string name="property_management_label">Property Management</string>
+    <string name="title_activity_saved_properties">Saved Properties</string>
+</resources>
