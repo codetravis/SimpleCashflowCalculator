@@ -14,7 +14,7 @@
     tools:showIn="@layout/activity_main_menu">
 
     <Button
-        android:text="New House"
+        android:text="@string/new_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -23,7 +23,7 @@
         android:id="@+id/new_button" />
 
     <Button
-        android:text="Saved Houses"
+        android:text="@string/saved_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"

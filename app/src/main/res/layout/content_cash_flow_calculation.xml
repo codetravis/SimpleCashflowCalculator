@@ -144,7 +144,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/property_tax"
-        android:textAlignment="center"
         android:text="@string/vacancy_label"
         android:textSize="20sp"/>
 

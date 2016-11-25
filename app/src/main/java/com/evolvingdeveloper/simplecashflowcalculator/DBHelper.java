@@ -70,7 +70,6 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put(PROPERTY_COLUMN_PROPERTY_MANAGEMENT, property_management);
 
         new_id = db.insert(PROPERTY_TABLE_NAME, null, contentValues);
-
         return new_id;
     }
 
@@ -109,6 +108,11 @@ public class DBHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor res =  db.rawQuery( "select * from " + PROPERTY_TABLE_NAME, null );
         return res;
+    }
+
+    public void deleteProperty(long id) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.delete(PROPERTY_TABLE_NAME, "_id=?", new String[] { String.valueOf(id) });
     }
 
 }

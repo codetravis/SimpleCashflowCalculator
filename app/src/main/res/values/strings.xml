@@ -12,4 +12,7 @@
     <string name="property_tax_label">Property Tax</string>
     <string name="property_management_label">Property Management</string>
     <string name="title_activity_saved_properties">Saved Properties</string>
+    <string name="delete_property_button">X</string>
+    <string name="new_button">New Property</string>
+    <string name="saved_button">Saved Properties</string>
 </resources>
